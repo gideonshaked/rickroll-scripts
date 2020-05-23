@@ -28,7 +28,7 @@ With the alternate link:
 
 	Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
 
-To set up to run multiple times (if used with Windows Task Scheduler) you need to set the execution policy prior (Powershell has no cmdlet equivalent to expect that is easily usable):
+To set up to run multiple times, for example if used with Windows Task Scheduler, you need to set the execution policy prior (Powershell has no cmdlet equivalent to expect that is easily usable):
 
 	Set-ExecutionPolicy -ExecutionPolicy unrestricted
 
