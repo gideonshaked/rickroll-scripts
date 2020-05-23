@@ -13,7 +13,7 @@ To get started without downloading you can:
 Or use the alternative link:
 
     curl -s -L https://bit.ly/2A4lXtj | bash
-	
+
 For even more fun put this on your friend's computer and set a cronjob ;).
 
 ## Windows
@@ -33,9 +33,9 @@ To set up to run multiple times, for example if used with Windows Task Scheduler
 	Set-ExecutionPolicy -ExecutionPolicy unrestricted
 
 Then you can run the following each time:
-	
+
 	Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.ps1 -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
 
 With the alternate link:
 
-	Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1	
+	Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
