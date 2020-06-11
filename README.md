@@ -4,8 +4,7 @@ This is a lighthearted script that you can use to rickroll yourself or your unwi
 
 ## Linux
 
-Requires Xdotools and Mozilla Firefox to run.
-To get started without downloading you can:
+Requires Xdotools, Pulseaudio, and Mozilla Firefox to run. To get started without downloading you can:
 
     curl -s -L https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
 
