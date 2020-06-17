@@ -7,7 +7,7 @@ This is a lighthearted script that you can use to rickroll yourself or your unwi
 Requires Xdotools and Mozilla Firefox to run.
 To get started without downloading you can:
 
-    curl -s -L https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
+    curl -s https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
 
 Or use the alternative link:
 
