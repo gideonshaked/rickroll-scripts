@@ -1,10 +1,10 @@
 # Rickroll-Scripts
 
-These are lighthearted scripts that you can use to rickroll yourself or your unwitting friends. Compatible with both Windows and Linux, they make rickrolling a scriptable and automatable task. For even more fun put this on your friend's computer and set a cronjob or use Windows Task Scheduler ;).
+These are lighthearted scripts that you can use to rickroll yourself or your unwitting friends. Compatible with both Windows and Linux, they make rickrolling a scriptable and automatable task. For even more fun, use cron / Windows Task Scheduler or put this in your friend's .bashrc ;).
 
 ## Linux
 
-Requires Xdotools, Pulseaudio, and Mozilla Firefox to run. To get started without downloading you can:
+Requires Xdotools and Mozilla Firefox to run. To get started without downloading you can:
 
     curl -s https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
 
