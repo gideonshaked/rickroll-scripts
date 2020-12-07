@@ -6,31 +6,45 @@ These are lighthearted scripts that you can use to rickroll yourself or your unw
 
 Requires Xdotools and Mozilla Firefox to run. To get started without downloading you can:
 
-    curl -s https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
+```shell
+curl -s https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.sh | bash
+```
 
 Or use the alternative link:
 
-    curl -s -L https://bit.ly/2A4lXtj | bash
+```shell
+curl -s -L https://bit.ly/2A4lXtj | bash
+```
 
 ## Windows
 
 Requires Microsoft Edge, which is on all Windows installations by default.
 To run once:
 
-	Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.ps1 -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
+```posh
+Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.ps1 -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
+```
 
 With the alternate link:
 
-	Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
+```posh
+Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
+```
 
 To set up to run without user input, for example if used with Windows Task Scheduler, you need to set the execution policy to unrestricted prior (Powershell has no cmdlet equivalent to expect that is easily usable):
 
-	Set-ExecutionPolicy -ExecutionPolicy unrestricted
+```posh
+Set-ExecutionPolicy -ExecutionPolicy unrestricted
+```
 
 Then you can run the following each time:
 
-	Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.ps1 -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
+```posh
+Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/Rickroll-Scripts/master/rickroll.ps1 -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
+```
 
 With the alternate link:
 
-	Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
+```posh
+Invoke-WebRequest -URI https://bit.ly/3ggYaHu -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
+```
