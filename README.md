@@ -1,6 +1,6 @@
 # rickroll-scripts
 
-These are lighthearted scripts that you can use to rickroll yourself or your unwitting friends. Compatible with both Windows and Linux, they make rickrolling a scriptable and automatable task. For even more fun, use cron / Windows Task Scheduler or put this in your friend's .bashrc ;).
+These are lighthearted scripts that you can use to rickroll yourself or your unwitting friends. Compatible with both Windows and Linux, they make rickrolling a scriptable and automatable task. For even more fun, put this in your friend's `.bashrc` or use cron/Windows Task Scheduler ;).
 
 ## Linux
 
