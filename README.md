@@ -7,7 +7,7 @@ These are lighthearted scripts that you can use to rickroll yourself or your unw
 Requires Xdotools and Mozilla Firefox to run. To get started without downloading you can:
 
 ```shell
-curl -s https://raw.githubusercontent.com/The-Kid-Gid/rickroll-scripts/master/rickroll.sh | bash
+curl -s https://raw.githubusercontent.com/not-stirred/rickroll-scripts/master/rickroll.sh | bash
 ```
 
 Or use the alternative link:
@@ -22,7 +22,7 @@ Requires Microsoft Edge, which is on all Windows installations by default.
 To run once:
 
 ```posh
-Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/rickroll-scripts/master/rickroll.ps1 -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
+Invoke-WebRequest -URI https://raw.githubusercontent.com/not-stirred/rickroll-scripts/master/rickroll.ps1 -OutFile temp.ps1; Set-ExecutionPolicy -ExecutionPolicy unrestricted -Scope process; .\temp.ps1; Remove-Item temp.ps1
 ```
 
 With the alternate link:
@@ -40,7 +40,7 @@ Set-ExecutionPolicy -ExecutionPolicy unrestricted
 Then you can run the following each time:
 
 ```posh
-Invoke-WebRequest -URI https://raw.githubusercontent.com/The-Kid-Gid/rickroll-scripts/master/rickroll.ps1 -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
+Invoke-WebRequest -URI https://raw.githubusercontent.com/not-stirred/rickroll-scripts/master/rickroll.ps1 -OutFile temp.ps1;.\temp.ps1; Remove-Item temp.ps1
 ```
 
 With the alternate link:
